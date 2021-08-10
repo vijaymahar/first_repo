@@ -6,26 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>first repository</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
         body{
             background-color: #333;
             color: whitesmoke;
             text-align: center;
-            /* position: relative;
-            height: 100vh; */
         }
-        /* .container{
-            position: absolute;
-            width: 600px;
-            height: 350px;
-            border: 2px solid whitesmoke;
-            top: 40%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        } */
         .container{
             width: 600px;
             height: 350px;
-            /* border: 2px solid whitesmoke; */
             margin: 50px auto;
             border-radius: 20px;
             box-shadow: inset 8px 6px 14px rgb(20, 20, 20), inset -8px -6px 14px rgb(80, 80, 80);
@@ -33,20 +22,31 @@
             align-items: center;
             justify-content: center;
         }
-        .container h1{
-            font-size: 40px;
-            font-family: Arial, Helvetica, sans-serif;
-            text-transform: uppercase;
-            text-shadow:  15px 15px 10px rgb(0, 0, 0);
-            background-image: linear-gradient(76deg, rgb(255, 28, 122) 20%, rgb(37, 192, 240) 40%, rgb(148, 248, 66) 60%, rgb(240, 255, 24) 80%, rgb(255, 106, 47) 100%);
+        .child{
+            width: 350px;
+            height: 200px;
+            /* border: 2px solid white; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px;
+            box-shadow: inset -8px -8px 14px rgb(20, 20, 20), inset 6px 6px 10px rgb(75, 75, 75);
+        }
+        .child h1{
+            font-size: 30px;
+            /* text-transform: uppercase; */
+            font-family: 'Monoton', cursive;
+            letter-spacing: 2px;
+            /* text-shadow:  15px 15px 10px rgb(0, 0, 0); */
         }
     </style>
 </head>
 <body>
     <h1>welcome to git Hub</h1>
     <div class="container">
-        <h1>git hub 🔥</h1>
-
+        <div class="child">
+            <h1>git hub 🔥</h1>
+        </div>
     </div>
 </body>
 </html>
